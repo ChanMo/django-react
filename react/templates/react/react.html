@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load react_tags %}
+{% block html_class %}{% endblock %}
+{% block navbar %}{% endblock %}
+{% block footer %}{% endblock %}
+{% block content %}
+{% endblock %}
+{% block extra_js %}
+  {% include "react/react_props.html" %}
+  {% react_static app_root %}
+{% endblock %}
