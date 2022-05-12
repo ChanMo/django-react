@@ -1,4 +1,4 @@
-# Djanog + React
+# Django + React
 
 Use Vite
 
