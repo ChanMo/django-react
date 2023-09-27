@@ -116,6 +116,16 @@ http://localhost:8000/
 Before deploy, run =yarn dev=,
 
 
+** Deployment
+
+First of all, you need to compile the React files.
+#+BEGIN_SRC bash
+  npm run build
+#+END_SRC
+This command will compile the React files into the ~static/dist~ directory.
+
+Then, make sure that ~DEBUG=False~ in the Django settings.
+
 ** Final Structure
 
 #+BEGIN_SRC

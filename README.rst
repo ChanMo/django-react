@@ -129,6 +129,20 @@ Build js
 
 Before deploy, run ``yarn dev``,
 
+Deployment
+----------
+
+First of all, you need to compile the React files.
+
+.. code:: bash
+
+   npm run build
+
+This command will compile the React files into the ``static/dist``
+directory.
+
+Then, make sure that ``DEBUG=False`` in the Django settings.
+
 Final Structure
 ---------------
 
